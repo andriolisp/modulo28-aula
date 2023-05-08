@@ -1,3 +1,3 @@
-const nomes = ['Carlos', 'Gian', 'Paulo']
+const nomes = ['Carlos', 'Edilson', 'Huann']
 
 export default nomes;

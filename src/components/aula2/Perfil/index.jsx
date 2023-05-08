@@ -3,6 +3,8 @@
 
 import "./perfil.css";
 
+const componentPerfil = false;
+
 const Perfil = () => {
   const usuario = {
     nome: "Carlos",
@@ -24,5 +26,5 @@ const Perfil = () => {
   );
 };
 
-export default Perfil;
-// export { Perfil };
+// export default Perfil;
+export { Perfil, componentPerfil };

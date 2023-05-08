@@ -1,7 +1,4 @@
-// Aula 04 - useEffect
-/*
-Manipulação do estado
-*/
+// Aula 06 - CSS Modules
 
 import { useState } from "react";
 

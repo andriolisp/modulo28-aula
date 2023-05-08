@@ -6,7 +6,7 @@ Podemos importar componentes externos
 Flow
 1. Importação
 2. Código do componente
-*/
+*/1
 
 // import de objeto e objeto com alias
 import { PI as PIAlias, GMT_BRASIL } from "./test";
@@ -15,7 +15,7 @@ import { PI as PIAlias, GMT_BRASIL } from "./test";
 import nomesExterno from "./nomes";
 
 // import Perfil from './Perfil/Perfil';
-import Perfil from "./Perfil";
+import { Perfil, componentPerfil } from "./Perfil/";
 
 const Aula2 = () => {
   return (
@@ -24,6 +24,7 @@ const Aula2 = () => {
       <h2> GMT_BRASIL: {GMT_BRASIL} </h2>
       <h3> Nomes Externos: {nomesExterno.join(", ")} </h3>
       <h4> Total de nomes: {nomesExterno.length} </h4>
+      <h5> Variavel do Perfil: {componentPerfil ? "true" : "false"} </h5>
       <br />
       <br />
       <Perfil />

@@ -1,4 +1,4 @@
-// Aula 01 - Objetivo é entender a configuraç±ao do vite + JSX + Funções Básicas
+// Aula 01 - Objetivo é entender a configuração do vite + JSX + Funções Básicas
 /*
 Babel é um compilador JavaScript gratuito e de código aberto e um conjunto de ferramentas que ajuda a traduzir o código para o navegador.
 Webpack é construtor, ajuda a agrupar todas as dependências to projeto em arquivos para casos específicos. (JS, CSS, Imagens, etc)

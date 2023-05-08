@@ -28,10 +28,8 @@ const Formulario = ({ nome }) => {
   };
 
   const alteraNotaB = (event) => {
-    setNotaB((notaAnterior) => {
-        console.log('nota B anterior: ', notaAnterior)
-        return event.target.value
-    });
+    console.log('nota B: ', event.target.value)
+    setNotaB(event.target.value);
   };
 
   return (

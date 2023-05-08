@@ -4,11 +4,11 @@
 import "./perfil.css";
 
 const Perfil = ({ nome, github }) => {
-    // const Perfil = (props) => {
-//   const {nome, github}  = props;
+// const Perfil = (props) => {
+  // const {nome, github}  = props;
 
   return (
-    <div>
+    <>
       {/* <h1>Props</h1>
       <h2>{JSON.stringify(props)}</h2> */}
 
@@ -21,7 +21,7 @@ const Perfil = ({ nome, github }) => {
       {/* <h3 className="perfil-titulo">{props.nome}</h3> */}
       <h3 className="perfil-titulo">{nome}</h3>
       <h4 className="perfil-titulo">{github}</h4>
-    </div>
+    </>
   );
 };
 

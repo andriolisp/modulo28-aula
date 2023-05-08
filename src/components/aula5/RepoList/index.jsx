@@ -8,11 +8,14 @@ const RepoList = ({ github }) => {
     fetch(`https://api.github.com/users/${github}/repos`)
       .then((res) => res.json())
       .then((data) => {
+        // console.log("Executei quando a API carregou")
         setTimeout(() => {
           setEstaCarregando(false);
           setRepos(data);
         }, 3000)
       });
+
+    // console.log("Executei do mesmo jeito")
   }, [github]);
 
   return (
