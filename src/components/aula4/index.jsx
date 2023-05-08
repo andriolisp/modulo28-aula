@@ -9,7 +9,7 @@ import Formulario from "./Formulario";
 import Perfil from "./Perfil";
 
 
-const Aula3 = ({nome, github}) => {
+const Aula4 = ({nome, github}) => {
   const [formularioVisivel, setFormularioVisivel] = useState(true)
 
   return (<>
@@ -19,4 +19,4 @@ const Aula3 = ({nome, github}) => {
   </>);
 };
 
-export default Aula3;
+export default Aula4;

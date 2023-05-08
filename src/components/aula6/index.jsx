@@ -8,7 +8,7 @@ import { useState } from "react";
 import Perfil from "./Perfil";
 import RepoList from "./RepoList";
 
-const Aula3 = () => {
+const Aula6 = () => {
   const [github, setGithub] = useState("andriolisp");
   return (
     <>
@@ -23,4 +23,4 @@ const Aula3 = () => {
   );
 };
 
-export default Aula3;
+export default Aula6;

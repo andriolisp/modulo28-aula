@@ -7,11 +7,11 @@ import Perfil from "./Perfil";
 import RepoList from "./RepoList";
 
 
-const Aula3 = ({nome, github}) => {
+const Aula5 = ({nome, github}) => {
   return (<>
     <Perfil nome={nome} github={github} />
     <RepoList github={github} />
   </>);
 };
 
-export default Aula3;
+export default Aula5;
